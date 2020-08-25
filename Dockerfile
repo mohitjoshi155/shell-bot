@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 RUN apt-get update
 RUN apt-get install -y git
-RUN apt-get install nodejs
+RUN apt-get install -y nodejs
 #clones the repo
 RUN git clone https://github.com/denomparkour/shell-bot
 #changes dir to shell-bot
